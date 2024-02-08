@@ -1,0 +1,22 @@
+This program was compiled using Java Version 17.
+
+All this information can be viewed in the pom.xml file in this file.
+
+The following maven dependencies were used in the program for SQL and Charts.
+
+1: sqlite-jdbc
+Used to allow for connections to a file database using SQLite
+
+<dependency>
+    <groupId>org.xerial</groupId>
+    <artifactId>sqlite-jdbc</artifactId>
+    <version>3.41.0.0</version>
+</dependency>
+
+2: JFreeChart
+Used for creating pie charts that show data about the program
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.4</version>
+</dependency>
